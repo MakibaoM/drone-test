@@ -3,7 +3,7 @@ name: default
 
 steps:
 - name: backend
-  images: golang:1.12-alpine
+  images: golang:alpine
   commands:
     - ls al
     - pwd
