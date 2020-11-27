@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: backend
+    images: goland:1.12-alpine
+    commands:
+      - ls al
