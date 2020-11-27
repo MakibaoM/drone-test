@@ -6,3 +6,4 @@ steps:
     images: goland:1.12-alpine
     commands:
       - ls al
+      - pwd
