@@ -8,3 +8,4 @@ steps:
     - ls al
     - pwd
     - ls al
+    - ls al
