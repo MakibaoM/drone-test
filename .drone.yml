@@ -9,3 +9,4 @@ steps:
     commands:
       - pwd
       - ls -al
+      - pwd
