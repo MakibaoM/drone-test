@@ -1,11 +1,11 @@
+---
 kind: pipeline
+type: docker
 name: default
 
 steps:
-- name: backend
-  images: golang:alpine
-  commands:
-    - ls al
-    - pwd
-    - ls al
-    - ls al
+  - name: greeting
+    image: golang:1.12
+    commands:
+      - go build
+      - go test
